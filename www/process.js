@@ -1,5 +1,5 @@
-alert("call cordova process defined");
 var process = function(callback){
+  alert("call cordova process defined");
   cordova.exec(
     callback,
     function(err) {
